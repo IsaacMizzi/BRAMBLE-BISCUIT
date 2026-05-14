@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Your Own - Bramble & Biscuit</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                Bramble &amp; Biscuit
+                <span>Cookies &amp; More</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="make-your-own.html">Make Your Own</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ingredients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="btn btn-teal ml-2">Cart (0)</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!--page header-->
+    <section class="page-header">
+        <div class="container text-center">
+            <h1>Make Your Own</h1>
+            <p>Watch your cookie come to life as you pick ingredients</p>
+        </div>
+    </section>
+    
+    <!--ingredients list!!!-->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    
+                    <h2 class="section-title mb-1 text-center">Choose Ingredients</h2>
+                    <p class="section-sub mb-4 text-center">Each ingredient appears on your cookie preview</p>
+                    
+                    <!--category: chocolate and sweets-->
+                    <div class="mb-4">
+                        <p class="ing-category-label">Chocolate &amp; Sweets</p>
+                        <div class="d-flex flex-wrap">
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.40" hidden>
+                                <span class="ing-dot" style="background:#2a1208"></span>Dark Choc Chips <span class="ing-kcal">50kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.40" hidden>
+                                <span class="ing-dot" style="background:#f5e6cc;border:1px solid #ccc"></span>White Choc Chips <span class="ing-kcal">50kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.35" hidden>
+                                <span class="ing-dot" style="background:#4a2010"></span>Cacao Nibs <span class="ing-kcal">30kcal</span>
+                            </label>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--category: fruits & berries-->
+                    <div class="mb-4">
+                        <p class="ing-category-label">Fruits &amp; Berries</p>
+                        <div class="d-flex flex-wrap">
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.35" hidden>
+                                <span class="ing-dot" style="background:#4a3580"></span>Dried Blueberries <span class="ing-kcal">20kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.35" hidden>
+                                <span class="ing-dot" style="background:#c0203a"></span>Dried Cranberries <span class="ing-kcal">25kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.30" hidden>
+                                <span class="ing-dot" style="background:#c89040"></span>Golden Raisins <span class="ing-kcal">30kcal</span>
+                            </label>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--category: nuts and seeds-->
+                    <div class="mb-4">
+                        <p class="ing-category-label">Nuts &amp; Seeds</p>
+                        <div class="d-flex flex-wrap">
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.45" hidden>
+                                <span class="ing-dot" style="background:#8b5020"></span>Walnuts <span class="ing-kcal">50kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.45" hidden>
+                                <span class="ing-dot" style="background:#d4a860"></span>Sliced Almonds <span class="ing-kcal">45kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.25" hidden>
+                                <span class="ing-dot" style="background:#e8d090"></span>Sesame Seeds <span class="ing-kcal">15kcal</span>
+                            </label>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--category: extras and flavors-->
+                    <div class="mb-4">
+                        <p class="ing-category-label">Extras &amp; Flavours</p>
+                        <div class="d-flex flex-wrap">
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.15" hidden>
+                                <span class="ing-dot" style="background:#ececec;border:1px solid #ccc"></span>Sea Salt Flakes <span class="ing-kcal">2kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.30" hidden>
+                                <span class="ing-dot" style="background:#9a78c0"></span>Dried Lavender <span class="ing-kcal">3kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.30" hidden>
+                                <span class="ing-dot" style="background:#f5f0d8;border:1px solid #ccc"></span>Coconut Flakes <span class="ing-kcal">25kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.35" hidden>
+                                <span class="ing-dot" style="background:#5a9a30"></span>Matcha Drizzle <span class="ing-kcal">8kcal</span>
+                            </label>
+                            
+                            <label class="ing-pill mr-2 mb-2">
+                                <input type="checkbox" class="ing-checkbox" value="0.25" hidden>
+                                <span class="ing-dot" style="background:#e8a020"></span>Honey Glaze <span class="ing-kcal">25kcal</span>
+                            </label>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--total-->
+                    <div class="byo-total-box text-center mb-4">
+                        <span class="byo-total-label">Total</span>
+                        <span class="byo-total-price">&euro;<span id="byo-price">3.50</span></span>
+                    </div>
+                    
+                    <a href="#" class="btn btn-teal btn-block rounded-pill py-3 font-weight-bold">Add to Cart</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--footer-->
+    <footer>
+        <div class="container text-center">
+            <div class="footer-brand">Bramble &amp; Biscuit</div>
+            <div class="footer-sub mb-3">Cookies &amp; More</div>
+            <div class="d-flex justify-content-center flex-wrap mb-3">
+                <a href="index.html" class="footer-link mx-3">Home</a>
+                <a href="shop.html" class="footer-link mx-3">Shop</a>
+                <a href="make-your-own.html" class="footer-link mx-3">Make Your Own</a>
+                <a href="#" class="footer-link mx-3">Ingredients</a>
+                <a href="#" class="footer-link mx-3">Contact</a>
+            </div>
+            <hr class="footer-hr">
+            <p class="footer-copy">&copy; 2025 Bramble &amp; Biscuit. Baked with care.</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    
+    <script>
+var base = 3.50;
+document.querySelectorAll('.ing-checkbox').forEach(function(box) {
+    box.addEventListener('change', function() {
+        var total = base;
+        document.querySelectorAll('.ing-checkbox:checked').forEach(function(checked) {
+            total += parseFloat(checked.value);
+        });
+        document.getElementById('byo-price').textContent = total.toFixed(2);
+    });
+});
+</script>
+    
+</body>
+</html>
